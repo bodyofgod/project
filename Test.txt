@@ -1,2 +1,8 @@
+TUTORIALDIR=~/src/cccc-150417/php_gae_quickstart-2016-11-24-21-43
+git clone https://github.com/GoogleCloudPlatform/appengine-try-php.git $TUTORIALDIR
+cd $TUTORIALDIR
+git checkout gcloud
 dev_appserver.py --php_executable_path=/usr/bin/php-cgi $PWD ใช้รัน
-gcloud app deploy app.yaml --project cccc-150417 การทำให้ใช้งานได้ด้วย Cloud Shell
+out
+gcloud app deploy app.yaml --project cccc-150417
+gcloud app deploy app.yaml --project=zeta-cortex-150415 การทำให้ใช้งานได้ด้วย Cloud Shell
