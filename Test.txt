@@ -5,4 +5,4 @@ git checkout gcloud
 dev_appserver.py --php_executable_path=/usr/bin/php-cgi $PWD ใช้รัน
 out
 gcloud app deploy app.yaml --project cccc-150417
-gcloud app deploy app.yaml --project=zeta-cortex-150415 การทำให้ใช้งานได้ด้วย Cloud Shell
+gcloud app deploy app.yaml --project zeta-cortex-150415 การทำให้ใช้งานได้ด้วย Cloud Shell
